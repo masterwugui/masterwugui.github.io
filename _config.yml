@@ -12,11 +12,11 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username:     
-zhihu_username:     
-github_username:    
-twitter_username:   
-#facebook_username:  huxpro
+#weibo_username:     
+#zhihu_username:     
+#github_username:    
+#twitter_username:   
+#facebook_username:  
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -60,14 +60,14 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id:             # Format: UA-xxxxxx-xx
-ga_domain: 
+#ga_track_id:             # Format: UA-xxxxxx-xx
+#ga_domain: 
 
 
 
 # Sidebar settings
 sidebar: false                           # whether or not using Sidebar.
-sidebar-about-description: #""
+sidebar-about-description: "test"
 sidebar-avatar:       # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -86,7 +86,7 @@ service-worker: true
 
 # Friends
 friends: [
-    {
+    #{
     #     title: "Su",
     #     href: "http://su.gallery/"
     # }
